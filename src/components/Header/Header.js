@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import { BsFileEarmarkCode } from "react-icons/bs";
 
 import {
   Container,
@@ -17,7 +17,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
+          <BsFileEarmarkCode size='2.8rem' /> <span>Portfolio</span>
         </a>
       </Link>
     </Div1>

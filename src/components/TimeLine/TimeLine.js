@@ -65,7 +65,7 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionDivider />
+      <SectionDivider colorAlt />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         Simulation programmer in IDF with Unity engine and C#,
